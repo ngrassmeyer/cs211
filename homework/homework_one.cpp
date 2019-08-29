@@ -25,7 +25,7 @@ int main()
 		cin >> inptTwo;
 	cout << endl; //Skip a line with endl.
 
-	resultProd = inptOne * inptTwo; //After the variables inptOne and inptTwo are initialized, initialize all the result variables, otherwise Visual Studio, as it should, will show an error.
+	resultProd = inptOne * inptTwo; //AFTER the variables inptOne and inptTwo are initialized, initialize all the result variables, otherwise Visual Studio, as it should, will show an error.
 	resultSum = inptOne + inptTwo;
 	resultDif = inptOne - inptTwo;
 
