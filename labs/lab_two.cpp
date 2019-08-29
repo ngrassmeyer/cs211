@@ -11,7 +11,7 @@ int main()
 {
 	cout << "This program is designed to perform four operations (add, subtract, multiply, and divide) \non two values that you input in the order they were entered... \n"; //Program deifnition.
 
-	float //Declare all variables.
+	long double //Declare all variables.
 		inptOne,
 		inptTwo,
 		resultQuot,
