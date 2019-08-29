@@ -20,9 +20,9 @@ int main()
 		resultDif;
 
 	cout << "\nPlease input your first value... \n";
-	cin >> inptOne; //Initialize inptOne
+		cin >> inptOne; //Initialize inptOne
 	cout << "\nPlease input your second value... \n";
-	cin >> inptTwo; //Initialize inptTwo
+		cin >> inptTwo; //Initialize inptTwo
 
 	resultQuot = inptOne / inptTwo; //After the variables inptOne and inptTwo are initialized, initialize all the result variables, otherwise Visual Studio, as it should, will show an error.
 	resultProd = inptOne * inptTwo;
