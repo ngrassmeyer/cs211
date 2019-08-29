@@ -7,11 +7,11 @@ Description: Area And Circumference Calculator*/
 
 using namespace std;
 
-const double PI = 3.14159; //Constant variabe declaration.
+const float PI = 3.14159; //Constant variabe declaration and initialization.
 
 int main()
 {
-	double //Declare all the variables.
+	float //Declare all the variables.
 		r,
 		a,
 		c;
@@ -22,8 +22,8 @@ int main()
 	c = 2 * PI * r; //Initialize the circumference variable.
 	a = PI * r * r; //Initialize the area variable.
 
-	cout << "\nThe circumference of your circe is... " << c << "\n" //Print the circumference to the screen.
-		<< "The area of your circle is... " << a << "\n\n"; //Print the area to the screen.
+	cout << endl << "The circumference of your circe is... " << c << endl //Print the circumference to the screen.
+		<< "The area of your circle is... " << a << endl; //Print the area to the screen.
 
 	return 0;
 
