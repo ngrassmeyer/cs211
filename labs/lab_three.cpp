@@ -17,7 +17,7 @@ int main()
 		c;
 
 	cout << "Input the radius of the circle... "; //Ask the user for the radius.
-	cin >> r;
+		cin >> r;
 
 	c = 2 * PI * r; //Initialize the circumference variable.
 	a = PI * r * r; //Initialize the area variable.
