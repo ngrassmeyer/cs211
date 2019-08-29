@@ -9,7 +9,8 @@ using namespace std;
 
 int main()
 {
-	cout << "This program is designed to perform four operations (add, subtract, multiply, and divide) \non two values that you input in the order they were entered... \n"; //Program deifnition.
+	cout << "This program is designed to apply four operations (add, subtract, multiply, and divide)" << endl
+		<< "to two values inputted by the user..." << endl << endl; //Program deifnition.
 
 	long double //Declare all variables.
 		inptOne,
@@ -19,20 +20,21 @@ int main()
 		resultSum,
 		resultDif;
 
-	cout << "\nPlease input your first value... \n";
+	cout << "Please input your first value... ";
 		cin >> inptOne; //Initialize inptOne
-	cout << "\nPlease input your second value... \n";
+	cout << "Please input your second value... ";
 		cin >> inptTwo; //Initialize inptTwo
+	cout << endl;
 
 	resultQuot = inptOne / inptTwo; //After the variables inptOne and inptTwo are initialized, initialize all the result variables, otherwise Visual Studio, as it should, will show an error.
 	resultProd = inptOne * inptTwo;
 	resultSum = inptOne + inptTwo;
 	resultDif = inptOne - inptTwo;
 
-	cout << "\nThe quotient of the values is... \n" << resultQuot //Print all four results.
-		<< "\nThe product of the values is... \n" << resultProd
-		<< "\nThe sum of the values is... \n" << resultSum
-		<< "\nThe difference of the values is... \n" << resultDif << "\n\n";
+	cout << "The quotient of the values is... " << resultQuot << endl//Print all four results.
+		<< "The product of the values is... " << resultProd << endl
+		<< "The sum of the values is... " << resultSum << endl
+		<< "The difference of the values is... " << resultDif << endl;
 
 	return 0;
 }
