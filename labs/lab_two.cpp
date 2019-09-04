@@ -3,6 +3,8 @@ WSUID: P595Z792
 HW #: Lab 2
 Description: Variable Practice*/
 
+//This was originally lab two but I modified it the day after.
+
 #include <iostream>
 
 using namespace std;
