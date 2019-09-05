@@ -9,7 +9,7 @@ using namespace std;
 
 int main()
 {
-	cout << "This program will prompt for two integers and then display the result of addition,/nsubtraction, and multiplication on the numbers./n/n";
+	cout << "This program will prompt for two integers and then display the result of addition,\nsubtraction, and multiplication on the numbers.\n\n";
 
 	int //Declare all variables with datatype int. 
 		inptOne,
