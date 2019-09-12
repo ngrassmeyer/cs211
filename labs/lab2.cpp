@@ -1,3 +1,8 @@
+/*Name: Noah Grassmeyer
+WSUID: P595Z792
+HW #: Lab 2
+Description: Four Programs*/
+
 #include <iostream>
 #include <iomanip>
 #include <cmath>
