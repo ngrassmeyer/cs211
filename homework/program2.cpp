@@ -12,7 +12,7 @@ int main()
 {
 	float i, pNum = 0, nNum = 0, pMax = 0, pMin = 0, nMax = 0, nMin = 0; //Initialize all the variables and declare all equal to zero except the user input variable
 
-	cout << "Entering 0 will terminate the sequence of input values.\n";
+	cout << "Entering 0 will terminate the sequence of input values.\n\n";
 
 	do { //Using a do while loop, ask the user for the first number. Upon receiving the number, decide whether it is > or < 0.
 		cout << "Enter a number: "; 
