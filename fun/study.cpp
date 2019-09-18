@@ -26,7 +26,7 @@ R"(_____/\\\\\\\\\\\_______________________________________/\\\_________________
 
 	do {
 		do {
-			cout << "\n\nThere are eight possible programs:\n 1. Datatype Sizes\n 2. Logic Gates\n 3. List Numbers\n 4. Pythagorean Theorem\n 5. Quadratic Formula\n 6. Number Formatting\n 7. Area of Circle\n\nMake your choice: "; //Ask the user for the value of optOne.
+			cout << "\n\nThere are seven possible programs:\n 1. Datatype Sizes\n 2. Logic Gates\n 3. List Numbers\n 4. Pythagorean Theorem\n 5. Quadratic Formula\n 6. Number Formatting\n 7. Area of Circle\n\nMake your choice: "; //Ask the user for the value of optOne.
 				cin >> optOne;		//After asking the user for the value of optOne, the value the user enter next can be ushed to the variable optOne using cin.
 		if ((optOne < 1) || (optOne > 7))
 			cout << "\nThat option is invalid! Go again!\n";
