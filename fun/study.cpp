@@ -200,7 +200,6 @@ R"(_____/\\\\\\\\\\\_______________________________________/\\\_________________
 			} cout << "\n\nWould you like to go again? (y,n): "; cin >> optTwo;
 		} while (optTwo == 'y');
 
-	if (optTwo != 'y')
 		cout << "\nHave a great rest of your day!\n";
 
 	return 0;				// The return statement terminates a funtction. The
