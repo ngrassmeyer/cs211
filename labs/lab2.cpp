@@ -1,74 +1,50 @@
 /*Name: Noah Grassmeyer
 WSUID: P595Z792
-HW #: Lab 2
-Description: Four Programs*/
+HW #: Homework 1
+Description: Variable Practice*/
 
 #include <iostream>
-#include <iomanip>
-#include <cmath>
 
 using namespace std;
 
-const float PI = 3.14159;
-
-float main()
+int main()
 {
-	float varOne, varTwo, optOne;
-	char optTwo = 'Y';
+	cout << "This program will prompt for two integers and then display the result of addition, subtraction, and multiplication on the numbers. \n";
 
-	cout.setf(ios::fixed);
-	cout.setf(ios::showpoint);
-	cout.precision(3);
+	int //Declare all variables.
+		inptOne,
+		inptTwo,
+		resultProd,
+		resultSum,
+		resultDif;
 
-	while (optTwo == 'Y')
-	{
-		cout << "\nThere are four programs:\n 1. Sqaure Root\n 2. Area of Circle\n 3. Area of Rectangle\n 4. Income Tax\n\nChoose an option: ";
-		cin >> optOne;
+	cout << "\nEnter the first integer.";
+		cin >> inptOne; //Initialize inptOne
+	cout << "\nEnter the secong integer.";
+		cin >> inptTwo; //Initialize inptTwo
 
-		if (optOne == 1)
-		{
-			cout << "\nEnter the value you wish to take the square root of: ";
-			cin >> varOne;
-			cout << "\nThe square root of " << varOne << " is " << sqrt(varOne) << endl;
-		}
-		else if (optOne == 2)
-		{
-			cout << "\nEnter radius of your circle: ";
-			cin >> varOne;
-			cout << "\nThe area of circle with radius " << varOne << " is " << PI * varOne * varOne << endl;
-		}
-		else if (optOne == 3)
-		{
-			cout << "\nEnter the width of your rectangle: ";
-			cin >> varOne;
-			cout << "\nEnter the height of your rectangle: ";
-			cin >> varTwo;
-			cout << "\nThe area of rectangle with width " << varOne << " and height " << varTwo << " is " << varOne * varTwo << endl;
-		}
-		else if (optOne == 4)
-		{
-			cout << "\nPlease enter your yearly income: ";
-			cin >> varOne;
+		resultProd = inptOne * inptTwo; //After the variables inptOne and inptTwo are initialized, initialize all the result variables, otherwise Visual Studio, as it should, will show an error.
+		resultSum = inptOne + inptTwo;
+		resultDif = inptOne - inptTwo;
 
-			if (varOne <= 15000)
-			{
-				cout << "\nYou have to pay $0 in taxes!\n";
-			}
-			else if ((varOne > 15000) && (varOne < 25000))
-			{
-				cout << "\nYou have to pay $" << ((varOne - 15000) * 0.05) << " in taxes!\n";
-			}
-			else if (varOne >= 25000)
-			{
-				cout << "\nYou have to pay $" << (500 + ((varOne - 25000) * 0.10)) << " in taxes!\n";
-			}
-			else
-				cout << "\nYou entered an invalid income!\n";
-		}
-		else
-			cout << "\nThat option is invalid.";
-		cout << "\nDo you want to go again? (Y,n): ";
-			cin >> optTwo;
-	}
+	cout << "The product of ";
+	cout << inptOne;
+	cout << "and ";
+	cout << inptTwo;
+	cout << "is ";
+	cout << resultProd; //Print all four results.
+	cout << "The sum of ";
+	cout << inptOne;
+	cout << "and ";
+	cout << inptTwo;
+	cout << "is ";
+	cout << resultSum;
+	cout << "The difference of ";
+	cout << inptOne;
+	cout << "and ";
+	cout << inptTwo;
+	cout << "is ";
+	cout << resultDif;
+
 	return 0;
 }
