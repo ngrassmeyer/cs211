@@ -16,7 +16,7 @@ int main()
 		inptTwo;
 
 	cout << "Enter the first integer: "; //Ask user for the value of inptOne.
-		cin >> inptOne; //Initialize inptOne with the value the user entered.
+		cin >> inptOne; //Initialize inptOne with the value the user enters.
 	cout << "Enter the second integer: "; //Repeat for inptTwo.
 		cin >> inptTwo;
 	cout << endl; //Skip a line with endl.
