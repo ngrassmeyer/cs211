@@ -53,14 +53,7 @@ int main()
 						}
 					}
 				}
-				if ((live <= 1) || (live >= 4))
-				{
-					gridPresent[row][col] = false;
-				}
-				if (live == 3)
-				{
-					gridPresent[row][col] = true;
-				}
+				gridPresent[row][col] = (live == 3 || (live == 2 && gridPresent[row][col]));
 			}
 		}
 		cout << "Press \"G\" to advance to the next generation. Press \"T\" to terminate... " << endl;
